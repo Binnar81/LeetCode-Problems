@@ -2,19 +2,12 @@
     public static String moreSubsequence(int n, int m, String a, String b) {
         // Write your code here
         int countA = countDistinctSubsequences(a);
-
         int countB = countDistinctSubsequences(b);
-
-
-
         if (countA >= countB) {
 
             return a;
 
         }
-
-
-
         return b;
 
     }
